@@ -34,6 +34,23 @@ export default function Home() {
           </p>
         </div>
       </section>
+      <section className="text-center my-8">
+        <SectionHeaders
+          subHeader={"Don't hesitate"}
+          mainHeader={"Contact us"}
+        />
+        <div className="mt-8">
+          <a
+            className="text-4xl underline text-gray-500"
+            href="tel:+46738123123"
+          >
+            +46 738 123 123
+          </a>
+        </div>
+      </section>
+      <footer className="border-t p-8 text-center text-gray-500 mt-16">
+        &copy; 2023 All rights reserved
+      </footer>
     </>
   );
 }
